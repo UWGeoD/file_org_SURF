@@ -16,7 +16,7 @@ class FileOrganizer:
     @staticmethod
     def ensure_directory(path):
         """Ensure directory exists."""
-        path.mkdir(exist_ok=True)
+        path.mkdir(parents=True, exist_ok=True)
 
     def setup_logging(self):
         """Setup logging for both success and error logs."""
