@@ -17,7 +17,7 @@ def main():
 
     # Organize files
     organizer.organize_files()
+    print (f"{source_dir}: Done")
 
 if __name__ == '__main__':
     main()
-
