@@ -7,13 +7,13 @@
 clone git@github.com:UWGeoD/file_org_SURF.git
 ```
 
-The file structure would be like
-├── config.txt (config for multiple folders)
-├── file_org_SURF (Organizer Scripts)
-├── lost+found
-├── May_2022 (The folder we want to process)
-├── nohup.out 
-└── Organized_SURF (Organized data)
+The file structure would be like    
+├── config.txt (config for multiple folders)    
+├── file_org_SURF (Organizer Scripts)    
+├── lost+found    
+├── May_2022 (The folder we want to process)    
+├── nohup.out     
+└── Organized_SURF (Organized data)    
 
 ### Processing single folder
 ```
@@ -60,7 +60,7 @@ Processed files from May_2022/Well_-SURF()__on_19052022_151612_UTC(+0000) to Org
 '
 ```
 #### Log tracker
-Look at the processed log 
+Look at the latest processed log 
 ```
 tail Organized_SURF/Log/success.log
 ```
